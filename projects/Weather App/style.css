@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #2d3c3f;
+    color: #d8da70;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d8da70;
+}
+
+.container {    
+    text-align: center;
+    background-color: #2d3c3f;
+    padding: 20px;
+    border-radius: 10px;    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #d8da70;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weather-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {    
+    padding: 10px;    
+    margin-right: 10px;
+    border: none;    
+    border-radius: 5px;
+    font-size: 16px;
+    color: #2d3c3f;    
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #d8da70;
+    color: #2d3c3f;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {    
+    background-color: #2d3c3f;
+    color: #d8da70;
+}
+
+.weather-info {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1.5;
+    padding: 0px 20px;
+    background: radial-gradient(circle, #404449, #2d3c3f);
+    /* background-color: #404449; */
+    border: 10px solid #2d3c3f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}    
+
+.error {    
+    color: red;
+    margin-top: 10px;
+}  
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0; /* Adds spacing between rows */
+}
+
+.label {
+    font-weight: bold;
+    text-align: left; /* Default alignment */
+}
+
+.value {
+    text-align: right;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #2d3c3f;
+    color: #d8da70;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.weather-info h3 {
+    text-align: center;
+}
