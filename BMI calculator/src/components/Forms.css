@@ -1,0 +1,40 @@
+/* Form Styles */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .mainform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s ease;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  input:focus {
+    border-color: #1d3c6b;
+    outline: none;
+  }
+  
+  button {
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+  
