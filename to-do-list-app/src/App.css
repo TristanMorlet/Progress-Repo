@@ -1,0 +1,123 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  font-family: Helvetica, sans-serif;
+  background-color: #f4f7fc;
+  color: #333
+}
+
+header {
+  background-color: #1e3a5f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.2 ); /* small shadow */
+  border-radius: 0, 0, 20px, 20px; /* rounds bottom corners */
+}
+
+.forms {
+  margin: 10px auto;
+  padding: 10px;
+  width: 30%;
+}
+
+.forms input[type="text"] {
+  margin: 10px auto;
+  padding: 10px;
+  width: 75%;
+  border: 2px solid #1e3a5f;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #1e3a5f;
+  color: white;
+  padding: 10px 15px;
+  margin:  0px 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: #1e3a5f 0.3s ease;
+}
+
+button:hover{
+  background-color: #3a5f84; /* lighter navy for hovering on button */
+}
+
+.taskArea, .completedTasks {
+  margin: 15px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* light shadow */
+}
+
+.taskArea h3, .completedTasks h2 {
+  font-size: 1.5rem;
+  color: #1e3a5f;
+}
+
+.taskArea p, .completedTasks ul {
+  font-size: 1rem;
+}
+
+.taskArea div{
+  text-align:center;
+  border-bottom: 1px solid #f4f4f4;
+}
+
+.taskArea div:last-child{
+  border-bottom: none;
+}
+
+button.complete {
+  background-color: #28a745;
+  margin-left: 10px;
+}
+
+button.complete:hover {
+  background-color: #218838;
+}
+
+.completedTasks ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.completedTasks li{
+  background-color: #d9e9ff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0, 0.1);
+  font-size: 1rem;
+}
+
+.details {
+  margin-top: 10px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.details p {
+  margin: 5px 0;
+}
+
+li {
+  display: flex; 
+  justify-content: space-between; /* Space between title and button */
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
